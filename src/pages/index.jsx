@@ -63,40 +63,54 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm John Doe.
+          Hello, <br /> I'm Zach.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm creating web experiences for local businesses, communities, and start-ups.</Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="Duke Advising Network"
+            link="#"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            In order to understand student learning which occurs both in and out of the classroom, teach and guide students through an interactive process of observation and performance, allow students and mentors to work together to gather and assess artifacts and evidence of student learning, we helped Duke University launch a student advising network interactive website for the coming academic year.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Stem Cells Portal"
+            link="https://www.stemcellsportal.com/"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            Articles for STEM CELLS and STEM CELLS Translational Medicine are embargoed for release until 9 a.m. Eastern U.S. time on the day the article is posted online. This policy applies to members of the media, authors, institutions' public information officers, and the public. Authors may not discuss their work with the media until 1 week before the mailing date or 1 week before online posting of the article, whichever is earlier, and must ensure that the media representatives agree to abide by the embargo policy. STEM CELLS Translational Medicine may refuse to publish a manuscript, despite acceptance for publication, if it has been prematurely released to the press.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="Prepare"
+            link="https://www.prepareforyourcare.org/"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            All online communications via PREPARE are fully confidential. PREPARE collects personal information for use on the website. When you register with PREPARE and sign in, you are not anonymous to us. PREPARE uses information for the following general purposes: to customize the content of the website, fulfill your requests, improve our services, contact you, conduct research, and provide anonymous reporting for internal and external purposes.
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="New Stone Realty"
+            link="https://newstonerealty.com/"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            We build trusted partnerships - for life. We care, and it shows. Most of our new clients are referrals from past clients. Our clients return to us for advice, recommendations, and re-buying and selling because they know that we "have their back" - every step of the way.
+          </ProjectCard>
+          <ProjectCard
+            title="Sagpools"
+            link="https://sagpools.net/"
+            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+          >
+            Articles for STEM CELLS and STEM CELLS Translational Medicine are embargoed for release until 9 a.m. Eastern U.S. time on the day the article is posted online. This policy applies to members of the media, authors, institutions' public information officers, and the public. Authors may not discuss their work with the media until 1 week before the mailing date or 1 week before online posting of the article, whichever is earlier, and must ensure that the media representatives agree to abide by the embargo policy. STEM CELLS Translational Medicine may refuse to publish a manuscript, despite acceptance for publication, if it has been prematurely released to the press.
+          </ProjectCard>
+          <ProjectCard
+            title="MBolden Ministries"
+            link="http://mboldenministries.com/"
+            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+          >
+            Melissa's passions are Jesus, her family, teaching math and emboldening others to walk in their God-given gifts. Melissa loves to teach on God's love, the power of grace, and who we are in Christ. She loves to empower the Body of Christ to walk in freedom from fear and depression. Melissa can often be found writing women's bible studies and leading women into a deeper revelation of the Father's love through weekly bible studies and regular speaking engagements.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
@@ -105,31 +119,16 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="John Doe" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I'm Zach and I recently completed my degrees in Computer Science and Biology at the University of North Carolina at Chapel Hill.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          This fall, I will be starting at the University of North Carolina at Chapel Hill School of Dentistry. I'll work with you to create a website for your personal needs or to represent your business.
         </AboutDesc>
       </About>
       <Contact offset={4}>
-        <Inner>
-          <Title>Get in touch</Title>
-          <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
-          </ContactText>
-        </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Zachary Burk.
         </Footer>
       </Contact>
     </Parallax>
